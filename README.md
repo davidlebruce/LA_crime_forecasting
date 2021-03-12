@@ -50,7 +50,7 @@ To make predictions and forecast the time series data, we want a model that mini
 
 ![img](./visualizations/model_iterations.png)
 
-Referring to the table above, we saw that there was a relatively small difference in the model RMSE of our previous best model ARMA-3,5 vs SARIMAX(0, 2, 2)x(2, 2, 2, 12). However, the AIC for the SARIMAX(0, 2, 2)x(2, 2, 2, 12) is significantly lower, indicating a better fit model. Therfore, our final best model is the SARIMAX(0, 2, 2)x(2, 2, 2, 12).
+Referring to the table above, we saw that there was a relatively small difference in the model RMSE of our previous best model ARMA-3,5 vs SARIMAX(0, 2, 2)x(2, 2, 2, 12). However, the AIC for the SARIMAX(0, 2, 2)x(2, 2, 2, 12) is significantly lower, indicating a better fit model. Therefore, our final best model is the SARIMAX(0, 2, 2)x(2, 2, 2, 12).
 
 ![img](./visualizations/final_model_forecasts.png)
 
